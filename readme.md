@@ -1,11 +1,20 @@
 # Namaste React
 
-Q.   What is CDN / Content Delivery Network?
-Ans: Content Delivery Network is a geographically distributed group of servers that caches content close to end users.
-
-Q.    What is cross origin?
-Ans:  Anything that is not of same origin be it protocol, port or domain is a cross origin.
-for example:
-http://akshaysaini.in and https://akshaysaini.in are cross origin because they use different protocols.
-http://akshaysaini.in and http://akshaysaini.in:8080 are cross origin because they use different ports.
-http://akshaysaini.in and http://www.google.com are cross origin because they are different domains.
+# Parcel
+- Dev Build
+- Local Server
+- HMR - Hot Module Replacement
+- File watching algorithm - written in C++
+- Caching - Faster Builds
+- Image optimization
+- Minification
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - support older browsers
+- Diagnostics behind the scenes
+- Error Handling
+- We can host our app on HTTPS using Parcel
+- Tree Shaking - remove unused code for us
+- Different build for Dev and production

@@ -1,0 +1,50 @@
+Q.   What is CDN / Content Delivery Network?
+Ans: Content Delivery Network is a geographically distributed group of servers that caches content close to end users.
+
+Q.    What is cross origin?
+Ans:  Anything that is not of same origin be it protocol, port or domain is a cross origin.
+for example:
+http://akshaysaini.in and https://akshaysaini.in are cross origin because they use different protocols.
+http://akshaysaini.in and http://akshaysaini.in:8080 are cross origin because they use different ports.
+http://akshaysaini.in and http://www.google.com are cross origin because they are different domains.
+
+
+Q.      What is Emmet?
+Ans:    Emmet is a built in feature in VS Code where we can use emmet abbreviations which expand 
+        automatically into code snippets so that we can focus on important stuff.
+
+Q.      Difference between library and framework?
+Ans:    Library is a collection of a few packages and dependencies. 
+        A library provides a set of helper functions/objects/modules which your 
+        application code calls for specific functionality. Libraries typically focus 
+        on a narrow scope, so their API’s also tend to be smaller and require fewer dependencies.
+        
+        * Libraries serve only a particular functionality whereas a framework gives a set of tools 
+        and functionalities to developers for developing an application
+
+Q.      Why is react known as react?
+Ans:    React is aptly named because:
+        It "reacts" quickly to changes without reloading the whole page.
+        It uses the virtual DOM to efficiently update parts of a webpage.
+        It’s built around components that "react" and update.
+
+Q.      Difference between react and react-dom?
+Ans:    React is the core functionality, whereas react-dom is related to the updates/manipulations on the DOM.
+        React contains functionality utilised in web and mobile apps. ReactDOM functionality is utilised only in web apps
+
+Q.      What is difference between react.development.js and react.production.js files via CDN?
+Ans:    Development vs. Production Builds
+        React official website provides two versions of React: an uncompressed version for development and a minified version for production. 
+        The development version includes extra warnings about common mistakes, whereas the production version 
+        includes extra performance optimizations and strips all error messages.
+
+Q.      What is async and defer?
+Ans:    Async and defer are boolean attributes we provide in script tag so that whenever html parsing is done 
+        and encounters the script tag with async or defer in it, HTML parsing is halted based on async or defer.
+        
+        case Async: when async attribute is present, HTML parsing and fetching of scripts is done parallelly. 
+        Once scripts are fetched, HTML parsing is stopped and scripts are executed only after that, HTML parsing continues.
+
+        case defer: in this case, HTML parsing and fetching of scripts both are done parallelly. However, 
+        HTML parsing doesn't stop and scripts are executed only when HTML parsing is completed.
+
