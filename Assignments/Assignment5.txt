@@ -1,0 +1,43 @@
+Chapter 05 - Let's get Hooked!
+
+Assignment
+● What is the difference between Named Export, Default export and * as export?
+
+- Named export 
+
+While exporting we can write export directly before the variable or component which needs to be exported.
+or we can export at the end of the document using {}.
+ex: export const LOGO_URL 
+or export {LOGO_URL}
+
+While importing we need to import using {}
+ex: import {LOGO_URL} from "./utils/constants";
+
+- Default export
+
+while exporting we can export as under:
+export default Header;
+
+While importing, we can import without using {}.
+import Header from "./components/Header";
+
+Since it was a default export of the header.js file, while we import we can use any name. Not just Header.
+It can be: 
+import Head from "./components/Header";
+
+
+- * as export/import
+
+When there are multiple exports. There can be only one DEFAULT EXPORT and multiple named exports. In that case, 
+we can use:
+import * as Head from "./components/Header" and while using them, we can write 
+Head.default, {Head.NamedComponent1}, {Head.NamedComponent2}, {Head.NamedComponent3}.
+
+
+● What is the importance of config.js file
+
+● What are React Hooks?
+React hooks are javascript utility functions written by Facebook developers.
+
+● Why do we need a useState Hook?
+we need useState hook to create and use a state variable in React.

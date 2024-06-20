@@ -1,0 +1,72 @@
+{
+    "info": {
+        "id": "313187",
+        "name": "Nawabi Chaats",
+        "cloudinaryImageId": "asob4fnxirpqx50bvuxp",
+        "locality": "Kondapur",
+        "areaName": "Kohtaguda",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+            "Chaat",
+            "Snacks",
+            "Indian"
+        ],
+        "avgRating": 4.3,
+        "veg": true,
+        "parentId": "291323",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "1K+",
+        "sla": {
+            "deliveryTime": 34,
+            "lastMileTravel": 2.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "2.4 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-06-20 23:30:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "15% OFF",
+            "subHeader": "UPTO ₹80"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+        "context": "seo-data-8b0c2014-032d-496c-a78b-791f4227bb76"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/nawabi-chaats-kondapur-kohtaguda-hyderabad-313187",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

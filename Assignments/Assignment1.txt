@@ -1,5 +1,6 @@
 Q.   What is CDN / Content Delivery Network?
-Ans: Content Delivery Network is a geographically distributed group of servers that caches content close to end users.
+Ans: Content Delivery Network is a geographically distributed group of servers that caches content close to 
+end users.
 
 Q.    What is cross origin?
 Ans:  Anything that is not of same origin be it protocol, port or domain is a cross origin.
@@ -20,13 +21,31 @@ Ans:    Library is a collection of a few packages and dependencies.
         on a narrow scope, so their API’s also tend to be smaller and require fewer dependencies.
         
         * Libraries serve only a particular functionality whereas a framework gives a set of tools 
-        and functionalities to developers for developing an application
+        and functionalities to developers for developing a large scale application
 
 Q.      Why is react known as react?
 Ans:    React is aptly named because:
         It "reacts" quickly to changes without reloading the whole page.
         It uses the virtual DOM to efficiently update parts of a webpage.
         It’s built around components that "react" and update.
+
+Q.      What is cross origin in script tag?
+Ans:    The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+        
+        Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+
+        A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) 
+        from another domain.
+
+        CORS is used to manage cross-origin requests.
+        CORS stands for Cross-Origin Resource Sharing, and is a mechanism that allows resources on a web page to be 
+        requested from another domain outside their own domain. It defines a way of how a browser and server can 
+        interact to determine whether it is safe to allow the cross-origin request. CORS allows servers to specify 
+        who can access the assets on the server, among many other things.
+
+        Tip: The opposite of cross-origin requests is same-origin requests. This means that a web page can only interact 
+        with other documents that are also on the same server. This policy enforces that documents that interact with each 
+        other must have the same origin (domain).
 
 Q.      Difference between react and react-dom?
 Ans:    React is the core functionality, whereas react-dom is related to the updates/manipulations on the DOM.
@@ -43,7 +62,8 @@ Ans:    Async and defer are boolean attributes we provide in script tag so that 
         and encounters the script tag with async or defer in it, HTML parsing is halted based on async or defer.
         
         case Async: when async attribute is present, HTML parsing and fetching of scripts is done parallelly. 
-        Once scripts are fetched, HTML parsing is stopped and scripts are executed only after that, HTML parsing continues.
+        Once scripts are fetched, HTML parsing is stopped and scripts are executed only after that, HTML parsing 
+        continues.
 
         case defer: in this case, HTML parsing and fetching of scripts both are done parallelly. However, 
         HTML parsing doesn't stop and scripts are executed only when HTML parsing is completed.

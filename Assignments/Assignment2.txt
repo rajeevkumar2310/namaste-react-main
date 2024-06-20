@@ -32,34 +32,37 @@ Q.      What is the difference between dependencies and devDependencies?
 Ans:    Normal dependencies are the dependencies we use during production. devDependencies are the dependencies
         we use during development phase / when we are developing our app.
 
-- What is Tree Shaking?
-Ans: Tree shaking is removing unused code or unused functions in our code. for example: we have 30-40 functions in our code and we are using only 3-4 functions. 
-Then remaining functions are removed by parcel and this functionality is known as tree shaking.
+-       What is Tree Shaking?
+Ans:    Tree shaking is removing unused code or unused functions in our code. for example: we have 30-40 functions 
+        in our code and we are using only 3-4 functions. Then remaining functions are removed by parcel 
+        and this functionality is known as tree shaking.
 
-● - What is Hot Module Replacement?
-Ans: Hot Module replacement or HMR is the functionality of Parcel where the localhost is reloaded automatically whenever there is change in our code.
+● -     What is Hot Module Replacement?
+Ans:    Hot Module replacement or HMR is the functionality of Parcel where the localhost is reloaded automatically 
+        whenever there is change in our code.
 
-● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
-own words.
-1. tree shaking - removes unused code,
-2. HMR/ Hot Module replacement - reloads our local host whenever there is change in our code.
-3. Image optimization - optimizes the images
-4. Bundling - bundles our code.
-5. Minification - minifies the code.
-6. Caching - caches our app and reloading of our app whenever we run it again takes a lot less time.
+● -     List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+Ans:    1. tree shaking - removes unused code,
+        2. HMR/ Hot Module replacement - reloads our local host whenever there is change in our code.
+        3. Image optimization - optimizes the images
+        4. Bundling - bundles our code.
+        5. Minification - minifies the code.
+        6. Caching - caches our app and reloading of our app whenever we run it again takes a lot less time.
 
 ● - What is `.gitignore`? What should we add and not add into it?
-Ans: .gitignore is a file where we write file or folder names to be ignored. Once we write the file/folder name in gitignore, 
-those files are not pushed into github repository. folders such as node_modules, .parcel-cache can be regenerated using package.json and package-lock.json.
+Ans: .gitignore is a file where we write file or folder names to be ignored. 
+Once we write the file/folder name in gitignore, those files are not pushed into github repository. 
+Folders such as node_modules, .parcel-cache can be regenerated using package.json and package-lock.json.
 Hence, they are not required to push to git hub.
 
 ● - What is the difference between `package.json` and `package-lock.json`
-Ans: package.json contain approximate version of dependencies our application requires. However, package-lock.json contains 
-all dependencies, their transitive dependencies along with their exact version.
+Ans: package.json contain approximate version of dependencies our application requires. 
+However, package-lock.json contains all dependencies, their transitive dependencies along with their exact version.
 
 ● - Why should I not modify `package-lock.json`?
-Ans: package-lock.json contain exact version of dependencies of our application and their hash code. This hash code is used to verify 
-whether our application in local is same as the one on server.
+Ans: package-lock.json contain exact version of dependencies of our application and their hash code. 
+This hash code is used to verify whether our application in local is same as the one on server.
+Hence, we should not modify our package-lock.json.
  
 ● - What is `node_modules` ? Is it a good idea to push that on git?
 Ans:    node_modules are the packages installed in our application and their transitive dependencies. 
@@ -72,6 +75,7 @@ Ans:    dist folder contains development build/ production build based on the co
 
 
 ● - What is `browserlists`
-browserlists is an npm package in which we can give an array of browsers in which our application should be compatible.
+browserlists is an npm package in which we can give an array of browsers in which our application 
+should be compatible.
 ex:  "browserlists":["last 2 versions"] 
-Here, our application will be compatible with last 2 versions of all major browsers.
+Here, our application will be surely compatible with last 2 versions of all major browsers.

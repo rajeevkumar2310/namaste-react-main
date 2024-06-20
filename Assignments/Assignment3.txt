@@ -1,0 +1,32 @@
+● What is JSX?
+
+JSX is Javascript XML. This is HTML like syntax which we write in react code. JSX is not readily understood by 
+react. However, parcel delegates the job of converting JSX code to react.createElement to babel. 
+i.e., babel transpiler converts the JSX to react.createElement which in turn creates a react element 
+which is a normal JS object. And we all know this react element is converted HTML tag by render function.
+
+
+● Superpowers of JSX
+It is a HTML like code we write in react. 
+Our code is readable because we use JSX. 
+We can write Javascript code inside JSX using {}. Because of this there are chances of malicious attacks like
+CROSS SITE SCRIPTING. Our JSX automatically takes care of this cross-site scripting attack (sanitizes the JS code.).
+
+● Role of type attribute in script tag? What options can I use there?
+
+type attribute has following options:
+1. no attribute (default) 
+2. text/javascript
+3. importmap
+4. module
+5. speculationrules
+
+Note:
+One important point here is that, we cannot do export or import in browser scripts.
+And our app.js file is not browser script. Therefore, we need to use type = "module" in script tag.
+
+
+● {TitleComponent} vs {<TitleComponent/>} vs
+{<TitleComponent></TitleComponent>} in JSX
+
+These are the three ways we can write to use a component in our code.

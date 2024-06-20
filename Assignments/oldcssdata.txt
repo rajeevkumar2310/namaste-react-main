@@ -1,0 +1,115 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    height: 100px;
+}
+
+.nav-list>ul{
+    display: flex;
+    list-style: none;
+    font-weight:bold;
+}
+
+.nav-list>ul>li{
+    margin:10px;
+    padding: 10px;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+.res-img{
+width: 100%;
+height: 150px;
+}
+
+.card:hover{
+    border: 1px solid black;
+}
+
+.footer{
+    text-align: center;
+}
+
+.top-rated-restaurants{
+    padding: 5px;
+    margin: 5px;
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.shimmer-card{
+    margin: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    width:200px;
+    height:400px;
+}
+
+.login-btn{
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.is-login{
+    border: 1px solid black;
+    margin:auto;
+    height:20px;
+    width:20px;
+    border-radius: 100%;
+}
+
+.filter{
+    display: flex;
+}
+
+.search-input-box{
+    margin:5px;
+}
+
+.search-btn{
+    padding: 0px 10px;
+    margin: 5px;
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    width:700px;
+    margin:auto;
+    padding:0px 10px;
+    border: 2px solid #f0f0f0;
+    
+}
+
+li{
+    list-style-type: none;
+} */

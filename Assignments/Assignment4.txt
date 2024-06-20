@@ -1,0 +1,61 @@
+● Is JSX mandatory for React?
+No. But JSX makes developers life easy. Our code is readable because of JSX.
+
+● Is ES6 mandatory for React?
+No. Babel converts our react code to be run on older browsers as well.
+
+● {TitleComponent} vs {<TitleComponent/>} vs
+{<TitleComponent></TitleComponent>} in JSX
+These are the three ways to insert a component in JSX.
+
+● How can I write comments in JSX?
+{/* comment here */}
+
+● What is <React.Fragment></React.Fragment> and <></> ?
+Every component should return only one JSX tag. There can be any number 
+of nested tags but the main tag will only be one. 
+If there are multiple JSX tags, we must wrap it inside <React.Fragment></React.Fragment>
+and <></> is the short form of <React.Fragment></React.Fragment>. 
+This also doesn't add unnecessary node in DOM Tree.
+
+● What is Virtual DOM?
+Virtual DOM is the object which was created by the code React.createElement.
+We know that JSX is converted to React.createElement which in turn creates the JS object.
+The JSX which was returned by our components when converted to React.createElement by babel will become big
+and complex code and which in turn gets converted a large JS object. This is virtual DOM. 
+This means there will be one virtual DOM for every component.
+
+● What is Reconciliation in React?
+React uses something known as "Reconciliation Algorithm" this is also known as "React Fiber"
+In this algorithm, whenever there is a change in state variable, react will check and compare 
+the old virtual DOM with new virtual DOM and only when there is a difference, then react immediately 
+re-renders the component.
+
+● What is React Fiber?
+React Fiber is Reconciliation algorithm of React. This is the core concept behind react to re-render efficiently
+whenever there is a difference between old and new virtual DOM when there is a change in state variable.
+
+● Why we need keys in React? When do we need keys in React?
+Whenever there is an array of components to be rendered in our page, keys are really needed for react to identify
+the components so that when a new component is inserted, react knows exactly which is the new component. Otherwise,
+it won't know which is the new component that came in and re-renders all the components. Using unique keys 
+greatly optimizes performance and not using the unique keys, there will be a huge performance hit.
+
+● Can we use index as keys in React?
+React official documentation itself says that it is not recommended to use index as keys in React.
+However, if there is no other option, then we can use index as keys in React.
+
+● What is props in React? Ways to
+props/properties in react are what we pass to a component. 
+What is component(functional component) at the end of the day? It is a function.
+Then props are the arguments we pass to a function. 
+Just like we pass arguments to a function, we pass props to a component.
+
+
+● What is a Config Driven UI ?
+Config driven UI means that the data configuration drives the UI of a website.
+For example, a website offers different discounts for users different cities. 
+Users in different cities will have different nearby restaurants. 
+Therefore, the different data is passed as config to users in different cities. 
+And based on this config, UI is rendered. This is known as config driven UI.
+
